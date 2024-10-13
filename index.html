@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>محاسبه مالیات</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>محاسبه حقوق و مالیات</h1>
+      <div class="input-group">
+        <label for="salaryInput"> حقوق روزانه :</label>
+        <input
+          type="number"
+          id="salaryInput"
+          placeholder="حقوق روزانه خود را وارد کنید"
+        />
+        <label for="daysInput"> تعداد روز های کاری :</label>
+        <input
+          type="number"
+          id="daysInput"
+          placeholder="تعداد روز های کاری خود را وارد کنید"
+        />
+
+        <button onclick="calculateWage()">محاسبه حقوق و مالیات</button>
+      </div>
+      <p id="result"></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
