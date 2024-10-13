@@ -1,6 +1,6 @@
 const getValue = (id) => parseInt(document.getElementById(id).value, 10) || 0;
 
-let wageInput, daysInput, dailyWage, daysWorked, wageWithoutTax, message;
+let dailyWage, daysWorked, wageWithoutTax, message;
 
 const displayMessage = (messageArray) => {
   message.innerHTML = messageArray.join('<br>');
